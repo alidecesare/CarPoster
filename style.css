@@ -11,89 +11,52 @@ body {
   background-color: #e3c759;
 }
 #title {
-  font-size: 130px;
+  font-size: 7vw;
   font-family: 'theboldfont';
   line-height: 0.1em;
 }
 #fText {
   position: fixed;
-  margin-top: 20vh;
-  margin-left: 60vh;
+  margin-top: 10vw;
+  margin-left: 30vw;
   z-index: 1;
 }
 #uText {
   position: fixed;
-  margin-left: 65vh;
-  margin-top: 39vh;
+  margin-left: 35vw;
+  margin-top: 19vw;
   z-index: -1;
 }
 #sTextFirst {
   position: fixed;
-  margin-left: 80vh;
-  margin-top: 47vh;
+  margin-left: 44vw;
+  margin-top: 24vw;
   z-index: 1;
 }
 #cText {
   position: fixed;
-  margin-left: 65vh;
-  margin-top: 65vh;
+  margin-left: 35vw;
+  margin-top: 32vw;
   z-index: -1;
 }
 #aText {
   position: fixed;
-  margin-left: 80vh;
-  margin-top: 75vh;
+  margin-left: 45vw;
+  margin-top: 36.2vw;
   z-index: 1;
 }
 #sTextSecond {
   position: fixed;
-  margin-left: 97vh;
-  margin-top: 81vh;
+  margin-left: 55vw;
+  margin-top: 39.5vw;
   z-index: 1;
 }
-
 #rectangle {
   position: fixed;
-  margin-top: 82vh;
+  margin-top: 78.6vh;
   width: 100vw;
-  height: 30vh;
+  height: 30vw;
   background: #e3c759;
-}
-
-#square {
-  position: fixed;
-  margin-left: 45vh;
-  margin-top: 7vh;
-  width: 7vh;
-  height: 7vh;
-  background: #28131b;
-}
-#narrowLineUpper {
-  position: fixed;
-  margin-left: 40vh;
-  margin-top: 7vh;
-  width: 4vh;
-  height: 0.5vh;
-  background: #28131b;
-  z-index: 1;
-}
-#narrowLineLower {
-  position: fixed;
-  margin-left: 40vh;
-  margin-top: 75vh;
-  width: 3vh;
-  height: 0.5vh;
-  background: #28131b;
-  z-index: 1;
-}
-#narrowLineRight {
-  position: fixed;
-  margin-left: 110vh;
-  margin-top: 67vh;
-  width: 4vh;
-  height: 0.5vh;
-  background: #28131b;
-  z-index: 1;
 }
 #imageContainer {
   display: flex;
@@ -102,16 +65,33 @@ body {
   flex-wrap: wrap;
 }
 .img {
-  margin-top: 17vh;
-  margin-left: -2vh;
-  width: 90%;
+  margin-top: 2vw;
+  margin-left: -2vw;
+  width: 100%;
+}
+#square {
+  position: fixed;
+  margin-left: 18vw;
+  margin-top: 7vh;
+  width: 7vw;
+  height: 7vw;
+  background: #28131b;
+}
+#narrowLineUpper {
+  position: fixed;
+  margin-left: 13vw;
+  margin-top: 7vh;
+  width: 4vh;
+  height: 0.5vh;
+  background: #28131b;
+  z-index: 1;
 }
 #upperContentNumbers {
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 26pt;
-  margin-left: 46vh;
-  margin-top: 9vh;
+  font-size: 5em;
+  margin-left: 18.2vw;
+  margin-top: 10vh;
   z-index: 1;
   color: #e3c759;
 }
@@ -119,107 +99,122 @@ body {
   text-decoration: underline;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 12pt;
-  margin-left: 50vh;
-  margin-top: 8.7vh;
+  font-size: 2em;
+  margin-left: 23.4vw;
+  margin-top: 9.7vh;
   z-index: 1;
   color: #e3c759;
 }
 #upperContentText {
-  line-height: 6vh;
-  letter-spacing: 1.5vh;
+  line-height: 8vh;
+  letter-spacing: 1.5vw;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 20pt;
-  margin-left: 45vh;
-  margin-top: 15vh;
+  font-size: 2em;
+  margin-left: 18vw;
+  margin-top: 19vh;
   z-index: 1;
   color: #28131b;
-
+}
+#narrowLineLower {
+  position: fixed;
+  margin-left: 13vw;
+  margin-top: 70vh;
+  width: 3vh;
+  height: 0.5vh;
+  background: #28131b;
+  z-index: 1;
 }
 #lowerContentTitle {
   line-height: 2vh;
-  letter-spacing: 0.7vh;
+  letter-spacing: 0.7vw;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 14pt;
-  margin-left: 40vh;
-  margin-top: 77vh;
+  font-size: 1em;
+  margin-left: 13vw;
+  margin-top: 72vh;
   z-index: 1;
   color: #28131b;
-  
 }
 #lowerContentText {
   line-height: 2.4vh;
-  letter-spacing: 0.3vh;
+  letter-spacing: 0.3vw;
   position: fixed;
   font-family: sans-serif;
-  font-size: 10pt;
-  margin-left: 40vh;
-  margin-top: 82vh;
+  font-size: 0.9em;
+  margin-left: 13vw;
+  margin-top: 77vh;
   z-index: 1;
   color: #28131b;
 }
 #midTitle {
-  line-height: 2vh;
-  letter-spacing: 0.1vh;
+  line-height: 2vw;
+  letter-spacing: 0.1vw;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 11pt;
-  margin-left: 77vh;
-  margin-top: 83vh;
+  font-size: 1vw;
+  margin-left: 36vw;
+  margin-top: 79.5vh;
   z-index: 1;
   color: #28131b;
 }
 #midDate {
   text-decoration: underline;
-  line-height: 2vh;
-  letter-spacing: 0.7vh;
+  line-height: 2vw;
+  letter-spacing: 0.7vw;
   position: fixed;
   font-family: 'Josefin Sans';
-  font-size: 35pt;
-  margin-left: 77vh;
-  margin-top: 86vh;
+  font-size: 4vw;
+  margin-left: 36vw;
+  margin-top: 84.5vh;
   z-index: 1;
   color: #28131b;
 }
 #midSubtitle {
-  line-height: 2vh;
-  letter-spacing: 0.2vh;
+  line-height: 2vw;
+  letter-spacing: 0.2vw;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 14pt;
-  margin-left: 84vh;
-  margin-top: 90vh;
+  font-size: 1.7vw;
+  margin-left: 41.7vw;
+  margin-top: 90.5vh;
   z-index: 1;
   color: #28131b;
 }
 #sideTextLight {
-  line-height: 2.4vh;
-  letter-spacing: 0.3vh;
+  line-height: 2.4vw;
+  letter-spacing: 0.3vw;
   position: fixed;
   font-family: sans-serif;
-  font-size: 11pt;
-  margin-left: 110vh;
-  margin-top: 45vh;
+  font-size: 1em;
+  margin-left: 67vw;
+  margin-top: 20vh;
   z-index: 1;
   color: #28131b;
 }
 #sideTextBold {
-  line-height: 2.4vh;
-  letter-spacing: 0.3vh;
+  line-height: 2.4vw;
+  letter-spacing: 0.3vw;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 13pt;
-  margin-left: 110vh;
-  margin-top: 53vh;
+  font-size: 1em;
+  margin-left: 67vw;
+  margin-top: 33vh;
   z-index: 1;
   color: #28131b;
 }
-
+#narrowLineRight {
+  position: fixed;
+  margin-left: 67vw;
+  margin-top: 56vh;
+  width: 4vh;
+  height: 0.5vh;
+  background: #28131b;
+  z-index: 1;
+}
 #logoPlacement {
   position: fixed;
-  width: 10vh;
-  margin-left: 125vh;
-  margin-top: 7vh;
+  width: 7vw;
+  margin-left: 75vw;
+  margin-top: 5vh;
 }
