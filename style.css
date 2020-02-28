@@ -135,6 +135,7 @@ body {
   margin-top: 15vh;
   z-index: 1;
   color: #28131b;
+
 }
 #lowerContentTitle {
   line-height: 2vh;
@@ -146,6 +147,7 @@ body {
   margin-top: 77vh;
   z-index: 1;
   color: #28131b;
+  
 }
 #lowerContentText {
   line-height: 2.4vh;
