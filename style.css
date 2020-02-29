@@ -11,7 +11,8 @@ body {
   background-color: #e3c759;
 }
 #title {
-  font-size: 7vw;
+  display: flex;
+  font-size: 7em;
   font-family: 'theboldfont';
   line-height: 0.1em;
 }
@@ -48,14 +49,14 @@ body {
 #sTextSecond {
   position: fixed;
   margin-left: 55vw;
-  margin-top: 39.5vw;
+  margin-top: 39vw;
   z-index: 1;
 }
 #rectangle {
   position: fixed;
-  margin-top: 78.6vh;
+  margin-top: 70.2vh;
   width: 100vw;
-  height: 30vw;
+  height: 30vh;
   background: #e3c759;
 }
 #imageContainer {
@@ -67,7 +68,7 @@ body {
 .img {
   margin-top: 2vw;
   margin-left: -2vw;
-  width: 100%;
+
 }
 #square {
   position: fixed;
@@ -154,7 +155,7 @@ body {
   font-family: 'theboldfont';
   font-size: 1vw;
   margin-left: 36vw;
-  margin-top: 79.5vh;
+  margin-top: 71.5vh;
   z-index: 1;
   color: #28131b;
 }
@@ -166,7 +167,7 @@ body {
   font-family: 'Josefin Sans';
   font-size: 4vw;
   margin-left: 36vw;
-  margin-top: 84.5vh;
+  margin-top: 76.5vh;
   z-index: 1;
   color: #28131b;
 }
@@ -177,7 +178,7 @@ body {
   font-family: 'theboldfont';
   font-size: 1.7vw;
   margin-left: 41.7vw;
-  margin-top: 90.5vh;
+  margin-top: 82.5vh;
   z-index: 1;
   color: #28131b;
 }
