@@ -66,7 +66,7 @@ body {
   flex-wrap: wrap;
 }
 .img {
-  margin-top: 2vw;
+  margin-top: 7vw;
   margin-left: -2vw;
 
 }
@@ -74,13 +74,13 @@ body {
   position: fixed;
   margin-left: 18vw;
   margin-top: 7vh;
-  width: 7vw;
-  height: 7vw;
+  width: 4vw;
+  height: 4vw;
   background: #28131b;
 }
 #narrowLineUpper {
   position: fixed;
-  margin-left: 13vw;
+  margin-left: 15vw;
   margin-top: 7vh;
   width: 4vh;
   height: 0.5vh;
@@ -90,9 +90,9 @@ body {
 #upperContentNumbers {
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 5em;
-  margin-left: 18.2vw;
-  margin-top: 10vh;
+  font-size: 2.4em;
+  margin-left: 18.3vw;
+  margin-top: 9vh;
   z-index: 1;
   color: #e3c759;
 }
@@ -100,26 +100,26 @@ body {
   text-decoration: underline;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 2em;
-  margin-left: 23.4vw;
-  margin-top: 9.7vh;
+  font-size: 1em;
+  margin-left: 21vw;
+  margin-top: 9vh;
   z-index: 1;
   color: #e3c759;
 }
 #upperContentText {
-  line-height: 8vh;
+  line-height: 6.4vh;
   letter-spacing: 1.5vw;
   position: fixed;
   font-family: 'theboldfont';
-  font-size: 2em;
+  font-size: 1.8em;
   margin-left: 18vw;
-  margin-top: 19vh;
+  margin-top: 14vh;
   z-index: 1;
   color: #28131b;
 }
 #narrowLineLower {
   position: fixed;
-  margin-left: 13vw;
+  margin-left: 15vw;
   margin-top: 70vh;
   width: 3vh;
   height: 0.5vh;
@@ -132,7 +132,7 @@ body {
   position: fixed;
   font-family: 'theboldfont';
   font-size: 1em;
-  margin-left: 13vw;
+  margin-left: 15vw;
   margin-top: 72vh;
   z-index: 1;
   color: #28131b;
@@ -143,7 +143,7 @@ body {
   position: fixed;
   font-family: sans-serif;
   font-size: 0.9em;
-  margin-left: 13vw;
+  margin-left: 15vw;
   margin-top: 77vh;
   z-index: 1;
   color: #28131b;
