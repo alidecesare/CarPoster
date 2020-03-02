@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'theboldfont';
+  src: url('theboldfont.ttf');
+}
+* {
+  box-sizing: border-box;
+  color: #28131b;
+  padding: 0px;
+}
+body {
+  background-color: #7793cc;
+}
+#title {
+  display: flex;
+  font-size: 8em;
+  font-family: 'theboldfont';
+  line-height: 0.1em;
+}
+#fText {
+  position: fixed;
+  margin-top: 10vw;
+  margin-left: 30vw;
+  z-index: 1;
+}
+#uText {
+  position: fixed;
+  margin-left: 35vw;
+  margin-top: 19vw;
+  z-index: -1;
+}
+#sTextFirst {
+  position: fixed;
+  margin-left: 44vw;
+  margin-top: 24vw;
+  z-index: 1;
+}
+#cText {
+  position: fixed;
+  margin-left: 35vw;
+  margin-top: 32vw;
+  z-index: -1;
+}
+#aText {
+  position: fixed;
+  margin-left: 43vw;
+  margin-top: 40.2vw;
+  z-index: 1;
+}
+#sTextSecond {
+  position: fixed;
+  margin-left: 53vw;
+  margin-top: 47vw;
+  z-index: 1;
+}
+
+#imageContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img {
+  margin-top: 7vw;
+  margin-left: 10vw;
+  width: 63.1%;
+
+}
+#square {
+  position: fixed;
+  margin-left: 18vw;
+  margin-top: 7vh;
+  width: 4vw;
+  height: 4vw;
+  background: #28131b;
+}
+#narrowLineUpper {
+  position: fixed;
+  margin-left: 15vw;
+  margin-top: 7vh;
+  width: 4vh;
+  height: 0.5vh;
+  background: #28131b;
+  z-index: 1;
+}
+#upperContentNumbers {
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 2.4em;
+  margin-left: 18.3vw;
+  margin-top: 9vh;
+  z-index: 1;
+  color: #7793cc;
+}
+#upperContentSymbol {
+  text-decoration: underline;
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 1em;
+  margin-left: 21vw;
+  margin-top: 9vh;
+  z-index: 1;
+  color: #7793cc;
+}
+#upperContentText {
+  line-height: 6.4vh;
+  letter-spacing: 1.5vw;
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 1.8em;
+  margin-left: 18vw;
+  margin-top: 14vh;
+  z-index: 1;
+  color: #28131b;
+}
+#narrowLineLower {
+  position: fixed;
+  margin-left: 15vw;
+  margin-top: 70vh;
+  width: 3vh;
+  height: 0.5vh;
+  background: #28131b;
+  z-index: 1;
+}
+#lowerContentTitle {
+  line-height: 2vh;
+  letter-spacing: 0.7vw;
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 1em;
+  margin-left: 15vw;
+  margin-top: 72vh;
+  z-index: 1;
+  color: #28131b;
+}
+#lowerContentText {
+  line-height: 2.4vh;
+  letter-spacing: 0.3vw;
+  position: fixed;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  margin-left: 15vw;
+  margin-top: 77vh;
+  z-index: 1;
+  color: #28131b;
+}
+#midTitle {
+  line-height: 2vw;
+  letter-spacing: 0.1vw;
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 1vw;
+  margin-left: 33vw;
+  margin-top: 80.5vh;
+  z-index: 1;
+  color: #28131b;
+}
+#midDate {
+  text-decoration: underline;
+  line-height: 2vw;
+  letter-spacing: 0.7vw;
+  position: fixed;
+  font-family: 'Josefin Sans';
+  font-size: 4vw;
+  margin-left: 33vw;
+  margin-top: 85.5vh;
+  z-index: 1;
+  color: #28131b;
+}
+#midSubtitle {
+  line-height: 2vw;
+  letter-spacing: 0.2vw;
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 1.7vw;
+  margin-left: 38.7vw;
+  margin-top: 91.5vh;
+  z-index: 1;
+  color: #28131b;
+}
+#sideTextLight {
+  line-height: 2.4vw;
+  letter-spacing: 0.3vw;
+  position: fixed;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-left: 67vw;
+  margin-top: 20vh;
+  z-index: 1;
+  color: #28131b;
+}
+#sideTextBold {
+  line-height: 2.4vw;
+  letter-spacing: 0.3vw;
+  position: fixed;
+  font-family: 'theboldfont';
+  font-size: 1em;
+  margin-left: 67vw;
+  margin-top: 33vh;
+  z-index: 1;
+  color: #28131b;
+}
+#narrowLineRight {
+  position: fixed;
+  margin-left: 67vw;
+  margin-top: 56vh;
+  width: 4vh;
+  height: 0.5vh;
+  background: #28131b;
+  z-index: 1;
+}
+#logoPlacement {
+  position: fixed;
+  width: 7vw;
+  margin-left: 75vw;
+  margin-top: 5vh;
+}
