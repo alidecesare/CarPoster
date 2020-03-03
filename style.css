@@ -219,18 +219,16 @@ body {
   margin-left: 75vw;
   margin-top: 5vh;
 }
-
 .box1 {
-  position: fixed;
-    background: transparent;
+    position: fixed;
+    background: white;
+    opacity: 0%;
     border-radius: 6px;
     cursor: pointer;
     height: 100vh;
-    line-height: 100vw;
+    width: 100vw;
     transition-duration: 1s;
     transition-timing-function: linear;
-    width: 100px;
-    position: relative;
     left: 0px;
     top: 0px;
     z-index:2;
