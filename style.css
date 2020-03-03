@@ -12,7 +12,7 @@ body {
 }
 #title {
   display: flex;
-  font-size: 7em;
+  font-size: 8em;
   font-family: 'theboldfont';
   line-height: 0.1em;
 }
